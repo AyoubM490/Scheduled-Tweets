@@ -170,6 +170,7 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
+    pg (1.4.1)
     public_suffix (4.0.7)
     puma (5.6.4)
       nio4r (~> 2.0)
@@ -229,7 +230,6 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.4)
     stimulus-rails (1.1.0)
       railties (>= 6.0.0)
     strscan (3.0.3)
@@ -285,12 +285,12 @@ DEPENDENCIES
   jbuilder
   omniauth-rails_csrf_protection (~> 1.0)
   omniauth-twitter (~> 1.4)
+  pg
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
   selenium-webdriver
   sidekiq (~> 6.5)
   sprockets-rails
-  sqlite3 (~> 1.4)
   stimulus-rails
   turbo-rails
   twitter (~> 7.0)
