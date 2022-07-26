@@ -285,7 +285,7 @@ DEPENDENCIES
   jbuilder
   omniauth-rails_csrf_protection (~> 1.0)
   omniauth-twitter (~> 1.4)
-  pg
+  pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
   selenium-webdriver
